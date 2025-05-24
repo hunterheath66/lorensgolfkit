@@ -5,6 +5,10 @@ import { TailwindCard } from "./TailwindCard";
 import { HeadwindCard } from "./HeadwindCard";
 import { PracticePlanCard } from "./PracticePlanCard";
 import { DecadeCard } from "./DecadeCard";
+import { FullSwingCard } from "./FullSwingCard";
+import { ChippingPitchingCard } from "./ChippingPitchingCard";
+import { PuttingCard } from "./PuttingCard";
+import { ShortGameChallengeCard } from "./ShortGameChallengeCard";
 
 const cards = [
   { name: "Warmup", component: <WarmupCard /> },
@@ -13,6 +17,10 @@ const cards = [
   { name: "Headwind", component: <HeadwindCard /> },
   { name: "Practice Plan", component: <PracticePlanCard /> },
   { name: "DECADE", component: <DecadeCard /> },
+  { name: "Full Swing", component: <FullSwingCard /> },
+  { name: "Chipping & Pitching", component: <ChippingPitchingCard /> },
+  { name: "Putting", component: <PuttingCard /> },
+  { name: "Short Game Challenge", component: <ShortGameChallengeCard /> },
 ];
 
 export default function App() {
